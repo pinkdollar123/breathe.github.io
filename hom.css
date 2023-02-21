@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(255, 255, 255,0.75),
+  background-image: linear-gradient(rgba(255, 255, 255,0.45),
   rgba(0,0,0,0.75)), url(/Images/breathe\ logo.PNG);
   background-size: cover;
   background-attachment: fixed;
