@@ -102,12 +102,16 @@ nav a:active{
   background-color: #78DEC7;
   box-shadow: 0 0 15px #78DEC7;
   font-size: large;
-  text-shadow: 2px 2px 15px black;
+  text-shadow: 2px 2px 25px black;
   width: 95%;
 }
 
 .col1 p {
   font-size: 25px;
+}
+
+.col1 p:hover{
+  color: black;
 }
 
 div p, div h5{

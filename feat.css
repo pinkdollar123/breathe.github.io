@@ -112,6 +112,10 @@ nav a:active{
   font-size: 25px;
 }
 
+.col1 p:hover{
+  color: black;
+}
+
 div p, div h5{
   color: #fff;
 }
@@ -151,8 +155,6 @@ button a:hover{
  color: #fff;
 }
 
-
-
 .col2{
   background-color: rgba(0,0,0,0.1);
   border-radius: 20px;
@@ -164,6 +166,14 @@ button a:hover{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.col2:hover
+{
+  padding: 10px;
+  background-color: #78dec6d6;
+  box-shadow: 0 0 15px #78DEC7;
+  opacity: 0.85;
 }
 
 .imahe-to{
@@ -218,17 +228,6 @@ button a:hover{
 }
 .to12{
   background-image: linear-gradient(rgba(184, 139, 139, 0.55),rgba(0,0,0,0.15)), url(/Images/a4.png);
-}
-
-
-
-
-.col2:hover
-{
-  padding: 10px;
-  background-color: #B99B6B;
-  box-shadow: 0 0 15px #B99B6B;
-  opacity: 0.85;
 }
 
  .to1:hover, .to2:hover, .to3:hover, .to4:hover{
