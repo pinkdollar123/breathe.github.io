@@ -230,16 +230,18 @@ button a:hover{
   background-image: linear-gradient(rgba(184, 139, 139, 0.55),rgba(0,0,0,0.15)), url(/Images/a4.png);
 }
 
- .to1:hover, .to2:hover, .to3:hover, .to4:hover{
+ .to1:hover, .to2:hover, .to3:hover, .to4:hover, 
+ .to5:hover, .to6:hover, .to7:hover, .to8:hover, 
+ .to9:hover, .to10:hover, .to11:hover, .to12:hover{
   box-shadow: 0px 0px 20px #00092C;
   width: 150px;
   height: 175px;
-  transition: 0.7s;
+  transition: 0.15s;
 }
 
-.imahe-to .to1:hover{
+/* .imahe-to .to1:hover{
     padding: 20px;
-}
+} */
 
 
 /* FOOTER STYLING */
@@ -367,6 +369,14 @@ footer {
   height: 250px;
 }
 
+.to1:hover, .to2:hover, .to3:hover, .to4:hover{
+  box-shadow: 0px 0px 20px #00092C;
+  width: 180px;
+  height: 280px;
+  transition: 0.35s;
+}
+
+
 }
 
 /* DESKTOP MODE MODIFICATIONS */
@@ -440,12 +450,15 @@ footer {
     height:280px;
   }
 
-  .to1:hover, .to2:hover, .to3:hover, .to4:hover{
+  .to1:hover, .to2:hover, .to3:hover, .to4:hover, 
+  .to5:hover, .to6:hover, .to7:hover, .to8:hover, 
+  .to9:hover, .to10:hover, .to11:hover, .to12:hover{
     box-shadow: 0px 0px 20px #00092C;
-    width: 130px;
-    height: 280px;
+    width: 150px;
+    height: 330px;
     transition: 0.7s;
     padding: 20px;
+    font-weight: 600;
   }
 
 }

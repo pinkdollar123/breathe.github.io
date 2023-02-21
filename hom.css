@@ -59,6 +59,7 @@ nav a{
   text-align: center;
   font-weight: bolder;
   text-shadow: 0px 0px 25px #fff;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 nav a:hover{
